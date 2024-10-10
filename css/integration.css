@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    color: grey;
+    background-color: black;
+}
+nav{
+    height: 13vh;
+    align-items: center;
+}
+nav a{
+    justify-content: flex-end;
+}
+nav div{
+    width: 25%;
+}
+a:hover{
+    color: white;
+}
+
+header{
+    background: url(../img/banniere4.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 40vh;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    color: rgb(233, 214, 139);
+}
+h1{
+    margin-top: 2em;
+    font-family:'Gill Sans';
+    font-size: 3.5em;
+}
+main{
+    margin-bottom: 3vh;
+}
+article{
+    max-width: 25%;
+    justify-items: center;
+    align-items: center;
+}
+img{
+    width: 100%;
+}
+h3{
+    justify-self: left;
+}
+article p{
+    text-align: justify;
+    height: 15vh;
+}
+h3{
+    text-align: center;
+    color: lightgrey;
+}
+
+footer{
+    
+    bottom: 0;left: 0; right: 0;
+    background-color: darkgray;
+    text-align: center;
+    color: black;
+    height: 2.5vh;
+}
+
+
+
+.d-flex{
+    display: flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+.space-around{
+    justify-content: space-around;
+}
+.colle-a-droite{
+    justify-content: flex-end;
+}
+.logo{
+    width: 6%;
+}
+.main-container{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    flex-direction: column;
+}
+.article-cont{
+    margin-top: 6vh;
+    justify-content: space-evenly;
+}
+.article-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.bouton{
+    width: 100%;
+}
+.bouton:hover{
+    color: white;
+    background-color: black;
+}
+
+#logo{
+    width: 100px;
+    justify-content: space-around;
+}
+#lien-nav{
+    width: 250px;
+    justify-content: space-around;
+}
